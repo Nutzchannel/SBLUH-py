@@ -23,10 +23,10 @@ def req(stuff):
         tosweeps = False
         print "Enter Sweeps."
         value = raw_input("==> ")
-        print value + " sweeps == " + conv(int(value), tosweeps) + "years."
+        print value + " sweeps == " + conv(int(value), tosweeps) + " years."
 
 def conv(x, sweeps):
-    y = 0.0
+    y = 0
     if sweeps == True:
         y = x / 2.166666666666667
     elif sweeps == False:
